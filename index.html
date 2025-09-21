@@ -3,38 +3,65 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>Misha's Queen’s Computing Student Page</title>
+    <title>Welcome to Misha's Queen’s Computing Student Page</title>
     <link rel="stylesheet" href="style.css"/> <!-- do not change this line -->
   </head>
   <body>
     <header>
-      <h1>Misha Shubin</h1> <!-- change this heading to your name -->
+      <h1>Misha Shubin</h1>
+      <h2>Queen’s School of Computing Student</h2>
     </header>
 
     <main>
-      <!-- ====== ABOUT SECTION (edit the text) ====== -->
-      <h2>About Me</h2>
-      <p>I am a student at Queen’s School of Computing. I’m interested in coding various programs or games!</p>
-      <!-- TODO: improve About text -->)
+      <!-- ====== ABOUT SECTION ====== -->
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+         I am a student at Queen’s School of Computing. I’m interested in coding various programs or games!
+        </p>
+      </section>
 
-      <!-- ====== PHOTO (upload me.jpg to repo root, then update the src below) ====== -->
-      <img src="me.jpg" alt="Your Name portrait" width="200" height="349" />
+      <!-- ====== PORTRAIT PHOTO ====== -->
+      <section id="portrait">
+        <img 
+          src="me.jpg" 
+          alt="Portrait of Queen's University student Misha Shubin smiling in their room" 
+          style="max-width:200px; width:100%; height:auto; border-radius:8px; display:block; margin:auto;"
+        />
+      </section>
 
-      <!-- ====== PROJECTS/COURSES (add or rename items to courses instead of projects) ====== -->
-      <h2>/Courses</h2>
-      <ul>
-        <li>CISC 121</li>
-        <li>CISC 102</li>
-        <li>MATH 121A</li>
-        <li>MATH 112</li>
-        <li>ECON 110</li>
-        <p>Personal Project: <a href="#">https://github.com/mishaSH07/ICS4U-FINAL-PROJECT-TERRARIUM-GAME</a></p>
-      </ul>
+      <!-- ====== COURSES SECTION ====== -->
+      <section id="courses">
+        <h2>Courses</h2>
+        <ul>
+          <li>CISC 121</li>
+          <li>CISC 102</li>
+          <li>MATH 121A</li>
+          <li>MATH 112</li>
+          <li>ECON 110</li>
+        </ul>
+      </section>
 
-      <!-- ====== CONTACT (update your links) ====== -->
-      <h2>Contact</h2>
-      <p>Email: <a href="misha.s@queensu.ca">student@queensu.ca</a></p>
-      <p>LinkedIn: <a href="#">https://www.linkedin.com/in/misha-shubin-164986336/</a></p>
+      <!-- ====== PROJECTS SECTION ====== -->
+      <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>
+            <a href="https://github.com/mishaSH07/ICS4U-FINAL-PROJECT-TERRARIUM-GAME" target="_blank">
+              ICS4U Final Project - Terrarium Game
+            </a>
+            <br>
+            <span>A clone of Terraria I made with two other people in Java.</span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- ====== CONTACT SECTION ====== -->
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:misha.s@queensu.ca">student@queensu.ca</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/misha-shubin-164986336/" target="_blank">Misha Shubin</a></p>
+      </section>
     </main>
   </body>
 </html>
